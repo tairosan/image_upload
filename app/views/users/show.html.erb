@@ -7,7 +7,6 @@
 
 <p>
   <b>Photo:</b>
-  <!-- <%= @user.photo %> -->
   <%= image_tag(@user.photo_url) if @user.photo? %>
   <%= image_tag(@user.photo.thumb.url) if @user.photo? %>
 </p>

@@ -1,0 +1,9 @@
+ja:
+  activerecord:
+    models:
+      user: user  #g
+
+    attributes:
+      user:
+        name: name  #g
+        photo: photo  #g

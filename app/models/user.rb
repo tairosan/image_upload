@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
-  attr_accessible :name, :photo, presence: true
+  validates :name,  :presence=>true, :uniqueness=>true
+  attr_accessible :name, :photo
   mount_uploader :photo, PhotoUploader
 end
