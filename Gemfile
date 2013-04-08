@@ -13,9 +13,10 @@ group :production do
 	gem 'pg'
 end
 
+gem 'i18n_generators'
 gem 'carrierwave'
 gem 'rmagick'
-gem 'i18n_generators'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
